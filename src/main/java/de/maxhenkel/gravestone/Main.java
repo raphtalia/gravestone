@@ -2,6 +2,7 @@ package de.maxhenkel.gravestone;
 
 import de.maxhenkel.corelib.CommonRegistry;
 import de.maxhenkel.gravestone.blocks.GraveStoneBlock;
+import de.maxhenkel.gravestone.commands.DeathsCommand;
 import de.maxhenkel.gravestone.commands.RestoreCommand;
 import de.maxhenkel.gravestone.entity.GhostPlayerEntity;
 import de.maxhenkel.gravestone.entity.PlayerGhostRenderer;
@@ -87,6 +88,7 @@ public class Main {
     @SubscribeEvent
     public void onRegisterCommands(RegisterCommandsEvent event) {
         RestoreCommand.register(event.getDispatcher());
+        DeathsCommand.register(event.getDispatcher());
     }
 
     @SubscribeEvent

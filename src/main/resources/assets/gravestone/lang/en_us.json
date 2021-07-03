@@ -10,6 +10,7 @@
   "message.gravestone.no_deathlocation": "No death location available",
   "message.gravestone.create_grave_failed": "Grave could not be placed",
   "message.gravestone.copied": "Copied %s to clipboard",
+  "message.gravestone.deaths": "List death UUIDs",
   "message.gravestone.restore": "Restore items",
   "message.gravestone.restore.replace": "Replace",
   "message.gravestone.restore.replace.description": "Removes all items from your inventory and restores the ones that you had just before you died",
