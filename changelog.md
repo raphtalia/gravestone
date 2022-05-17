@@ -1,1 +1,1 @@
-- Fixed grave names
+- Fixed ukrainian locale code
